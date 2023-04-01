@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #6096B4;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.big-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    margin: 10px auto 40px;
+}
+
+.navbar {
+    background-color: #C9EEFF;
+}
+
+.brand-img {
+    width: 40px;
+    margin: 0 -12px 0;
+}
+
+.nav-container {
+    padding: 2% 5%;
+}
+
+.nav-link {
+    font-family: 'Lily Script One', cursive;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #590696;
+}
+
+.container-fluid {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+#introduction .container-fluid {
+    background-color: #FFE5F1;
+}
+
+#album .container-fluid {
+    background-color: #DAF5FF;
+    color: #1A5F7A;
+}
+
+.intro-imgs {
+    margin: auto;
+    height: 400px;
+}
+
+/* left and right controls */
+.carousel-control-prev,
+.carousel-control-next {
+    height: 100%;
+    width: 80px;
+    margin-top: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100%;
+    width: 100%;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0;
+}
+
+.carousel-indicators .active {
+    background-color: #3b38e9;
+}
+
+.title {
+    font-style: italic;
+}
+
+.img-cell {
+    padding: 3px;
+}
+
+.img-container {
+    width: 100%;
+    height: 80%;
+    border-radius: 7px;
+}
+
+.img-container-background {
+    background-color: #B9E9FC;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+.album-name {
+    margin-top: 5px;
+}
+
+@media (max-width: 650px) {
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%;
+    }
+
+    .album-name {
+        font-size: 20px;
+    }
+}
+
+.img-grid {
+    width: 100%;
+    cursor: zoom-in;
+}
+
+.fullscreen-image {
+    position: fixed;
+    background-color: #1A5F7A;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+    height: 99%;
+    z-index: 999;
+    cursor: zoom-out;
+}
